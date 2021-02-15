@@ -1,0 +1,40 @@
+.center-content-flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.group {
+    position: relative;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    color: $color-offwhite;
+}
+
+.group-item {
+    flex: 1;
+    min-height: 500px;
+    padding: 5rem 0;
+}
+
+.group-item-left {
+    background-color: $color-primary;
+}
+
+.group-item-right {
+    background-color: $color-offwhite;
+}
+
+.content {
+    width: 80%;
+}
+
+@media (min-width: $breakpoint-desktop) {
+    .group {
+        flex-direction: row;
+    }
+
+    .content {
+    }
+}

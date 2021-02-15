@@ -1,0 +1,502 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="./styles/styles.css" />
+        <title>CSS Review</title>
+    </head>
+    <body>
+        <header>
+            <div class="navigation-content">
+                <nav class="center-content-flex">
+                    <ul class="center-content-flex">
+                        <li><a href="#">intro</a></li>
+                        <li><a href="#">skills</a></li>
+                        <li><a href="#">projects</a></li>
+                        <li><a href="#">contact</a></li>
+                        <li><a href="#">github</a></li>
+                    </ul>
+                </nav>
+                <img
+                    src="./images/misc/iconfinder-icon (2).svg"
+                    alt=""
+                    class="hamburger"
+                />
+            </div>
+        </header>
+
+        <main>
+            <!-- Intro -->
+            <section class="group">
+                <section class="group-item group-item-left center-content-flex">
+                    <section class="content intro-text">
+                        <h1>Hello World!</h1>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit. Omnis iusto ratione repellat ut, eius, iure
+                            deleniti laudantium doloremque non labore at saepe
+                            distinctio officia illum consectetur maiores
+                            architecto accusamus quis!
+                        </p>
+                        <a class="cta-btn" href="#" role="button"
+                            >Learn More!</a
+                        >
+                    </section>
+                </section>
+                <div class="group-item group-item-right center-content-flex">
+                    <div class="content center-content-flex">
+                        <img
+                            class="intro-image"
+                            src="./images/misc/Humaaans - Wireframe.png"
+                            alt="hero image"
+                        />
+                    </div>
+                </div>
+            </section>
+
+            <!-- Skills -->
+            <section class="group">
+                <section class="group-item group-item-left center-content-flex">
+                    <section class="content">
+                        <h2>skills</h2>
+                        <p>
+                            Houston born and raised graduate from the University
+                            of Houston, aspiring front-end developer with
+                            experience and knowledge in research and computer
+                            hardware to create solutions based on specifications
+                            and requirements through planning, designing,
+                            developing,and testing. Seeking entry-level
+                            front-end development position to utilize and
+                            strengthen current skills while developing new ones
+                            by working actively in a professional work
+                            environment with a team and independently.
+                        </p>
+                        <section>
+                            <h3>front end:</h3>
+                            <ul>
+                                <li>HTML</li>
+                                <li>CSS</li>
+                                <li>JavaScript(ES6+) / TypeScript</li>
+                                <li>ReactJS</li>
+                                <li>SCSS/SASS</li>
+                                <li>Bootstrap</li>
+                                <li>React-Testing-Library/Jest</li>
+                            </ul>
+                        </section>
+
+                        <section>
+                            <h3>others:</h3>
+                            <ul>
+                                <li>Responsive Design</li>
+                                <li>Testing</li>
+                                <li>Git/GitHub</li>
+                                <li>Figma</li>
+                            </ul>
+                        </section>
+                    </section>
+                </section>
+                <div class="group-item group-item-right center-content-flex">
+                    <div class="content skill-content">
+                        <div class="badge center-content-flex html">
+                            <img
+                                src="./images/tech-logos/html-logo.png"
+                                alt="html logo"
+                            />html
+                        </div>
+                        <div class="badge center-content-flex css">
+                            <img
+                                src="./images/tech-logos/css-logo.png"
+                                alt="css logo"
+                            />css
+                        </div>
+                        <div class="badge center-content-flex js">
+                            <img
+                                src="./images/tech-logos/javascript-logo.png"
+                                alt="javascript logo"
+                            />javascript
+                        </div>
+                        <div class="badge center-content-flex react">
+                            <img
+                                src="./images/tech-logos/react-logo.png"
+                                alt="react logo"
+                            />reactjs
+                        </div>
+                        <div class="badge center-content-flex scss">
+                            <img
+                                src="./images/tech-logos/sass-logo.png"
+                                alt="sass logo"
+                            />scss/sass
+                        </div>
+                        <div class="badge center-content-flex bootstrap">
+                            <img
+                                src="./images/tech-logos/bootstrap-logo.png"
+                                alt="bootstrap logo"
+                            /><span>bootstrap</span>
+                        </div>
+                        <div class="badge center-content-flex jest">
+                            <img
+                                src="./images/tech-logos/jest-logo.png"
+                                alt="rtl/jest logo"
+                            />react-testing-library/jest
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Projects -->
+            <section class="group">
+              <section class="group-item group-item-left">
+                
+                <!-- Project Cards -->
+                <div class="cards-container">
+                  <!-- WEATHER APP PROJECT -->
+                  <div class="card">
+                      <div class="card-front" data-aos="fade-down">
+                          <div class="card-image">
+                              <img
+                                  class="project-img"
+                                  src="./images/projects/weather-app.jpg"
+                                  alt="Weather App image"
+                              />
+                          </div>
+                          <div class="card-content">
+                              <h3 class="card-title">Weather App</h3>
+                              <hr />
+                              <p class="card-text">
+                                  A Weather App that allows the user to choose
+                                  any city in the world and view real time
+                                  data about the weather, temperatures, wind
+                                  speeds, and more in either metric or
+                                  imperial units.
+                              </p>
+                          </div>
+                      </div>
+
+                      <div class="card-back">
+                          <div class="back-links">
+                              <small class="tech"
+                                  >ReactJS, HTML, CSS/SASS, Typescript, APIs
+                                  React-Testing-Library/Jest</small
+                              >
+                              <a
+                                  class="back-link"
+                                  href="https://github.com/cnguyen-13/newWeatherApp"
+                                  target="_blank"
+                              >
+                                  <img
+                                      class="back-link-img"
+                                      src="./images/misc/coding.svg"
+                                      alt="Weather App GitHub Link"
+                                  />
+                                  <pre class="white"> CODE</pre>
+                              </a>
+                              <a class="back-link" href="" target="_blank">
+                                  <img
+                                      class="back-link-img"
+                                      src="./images/misc/eyeglass.svg"
+                                      alt="Weather App Site"
+                                  />
+                                  <pre class="white"> DEMO</pre>
+                              </a>
+                          </div>
+                          <small class="small-title"
+                              ><span class="project-number">Project #1:</span>
+                              Weather App</small
+                          >
+                      </div>
+                  </div>
+
+                  <!-- THE COOKBOOK REFERENCE PROJECT -->
+                  <div class="card">
+                      <div class="card-front" data-aos="fade-down">
+                          <div class="card-image">
+                              <img
+                                  class="project-img"
+                                  src="./images/projects/tcr.jpg"
+                                  alt="The Cookbook Reference image"
+                              />
+                          </div>
+                          <div class="card-content">
+                              <h3 class="card-title">
+                                  The Cookbook Reference
+                              </h3>
+                              <hr />
+                              <p class="card-text">
+                                  The Cookbook Reference allows users to
+                                  search through the "theMealDB" by filtering
+                                  through numerious categories and areas of
+                                  the world for recipes. There is plenty to
+                                  choose from!
+                              </p>
+                          </div>
+                      </div>
+
+                      <div class="card-back">
+                          <div class="back-links">
+                              <small class="tech"
+                                  >ReactJS, HTML5, CSS3/SASS, JavaScript,
+                                  APIs</small
+                              >
+                              <a
+                                  class="back-link"
+                                  href="https://github.com/cnguyen-13/The-Cookbook-Reference"
+                                  target="_blank"
+                              >
+                                  <img
+                                      class="back-link-img"
+                                      src="./images/misc/coding.svg"
+                                      alt="Weather App GitHub Link"
+                                  />
+                                  <pre class="white"> CODE</pre>
+                              </a>
+                              <a class="back-link" href="" target="_blank">
+                                  <img
+                                      class="back-link-img"
+                                      src="./images/misc/eyeglass.svg"
+                                      alt="Weather App Site"
+                                  />
+                                  <pre class="white"> DEMO</pre>
+                              </a>
+                          </div>
+                          <small class="small-title"
+                              ><span class="project-number">Project #2:</span>
+                              The Cookbook Reference</small
+                          >
+                      </div>
+                  </div>
+
+                  <!-- THE WORLD INFO PROJECT -->
+                  <div class="card">
+                      <div class="card-front" data-aos="fade-down">
+                          <div class="card-image">
+                              <img
+                                  class="project-img"
+                                  src="./images/projects/world-info.jpg"
+                                  alt="The World Info image"
+                              />
+                          </div>
+                          <div class="card-content">
+                              <h3 class="card-title">World Info</h3>
+                              <hr />
+                              <p class="card-text">
+                                  Users may find any country in the world and
+                                  find information about each! Searches are
+                                  done on changes to input ex. typing into the
+                                  search bar will change the countries shown!
+                              </p>
+                          </div>
+                      </div>
+
+                      <div class="card-back">
+                          <div class="back-links">
+                              <small class="tech">
+                                  ReactJS, React Router DOM, HTML5, CSS3/SASS,
+                                  JavaScript, React Testing
+                                  Library/Jest</small
+                              >
+                              <a
+                                  class="back-link"
+                                  href="https://github.com/cnguyen-13/theWorldInfo"
+                                  target="_blank"
+                              >
+                                  <img
+                                      class="back-link-img"
+                                      src="./images/misc/coding.svg"
+                                      alt="Weather App GitHub Link"
+                                  />
+                                  <pre class="white"> CODE</pre>
+                              </a>
+                              <a class="back-link" href="" target="_blank">
+                                  <img
+                                      class="back-link-img"
+                                      src="./images/misc/eyeglass.svg"
+                                      alt="Weather App Site"
+                                  />
+                                  <pre class="white"> DEMO</pre>
+                              </a>
+                          </div>
+                          <small class="small-title"
+                              ><span class="project-number">Project #3:</span>
+                              World Info</small
+                          >
+                      </div>
+                  </div>
+
+                  <!-- THE INDIAN FOOD PROJECT -->
+                  <div class="card">
+                      <div class="card-front" data-aos="fade-down">
+                          <div class="card-image">
+                              <img
+                                  class="project-img"
+                                  src="./images/projects/indian-food.jpg"
+                                  alt="India's Spice image"
+                              />
+                          </div>
+                          <div class="card-content">
+                              <h3 class="card-title">Indian Food</h3>
+                              <hr />
+                              <p class="card-text">
+                                  A website for a fictional Indian restuarant,
+                                  featuring the typical pages including about,
+                                  menu, and gallery of the food served. The
+                                  focus was on web design and responsive
+                                  design.
+                              </p>
+                          </div>
+                      </div>
+                      <div class="card-back">
+                          <div class="back-links">
+                              <small class="tech"
+                                  >HTML5, CSS3/SASS, Javascript, GSAP
+                              </small>
+                              <a
+                                  class="back-link"
+                                  href="https://github.com/cnguyen-13/Indian-Restaurant"
+                                  target="_blank"
+                              >
+                                  <img
+                                      class="back-link-img"
+                                      src="./images/misc/coding.svg"
+                                      alt="Weather App GitHub Link"
+                                  />
+                                  <pre class="white"> CODE</pre>
+                              </a>
+                              <a class="back-link" href="" target="_blank">
+                                  <img
+                                      class="back-link-img"
+                                      src="./images/misc/eyeglass.svg"
+                                      alt="Weather App Site"
+                                  />
+                                  <pre class="white"> DEMO</pre>
+                              </a>
+                          </div>
+                          <small class="small-title"
+                              ><span class="project-number">Project #4:</span>
+                              Indian Spice</small
+                          >
+                      </div>
+                  </div>
+
+                  <!-- THE QUIZ APP PROJECT -->
+                  <div class="card">
+                      <div class="card-front" data-aos="fade-down">
+                          <div class="card-image">
+                              <img
+                                  class="project-img"
+                                  src="./images/projects/quiz-app.jpg"
+                                  alt="Quiz App image"
+                              />
+                          </div>
+                          <div class="card-content">
+                              <h3 class="card-title">Quiz App</h3>
+                              <hr />
+                              <p class="card-text">
+                                  Quiz App tests your knowledge on varies
+                                  categories and difficulties. After
+                                  completing a quiz, the user will be placed
+                                  on the leaderboards for everyone to see! How
+                                  do you fare against others?
+                              </p>
+                          </div>
+                      </div>
+                      <div class="card-back">
+                          <div class="back-links">
+                              <small class="tech"
+                                  >ReactJS, HTML, Bootstrap, Typescript,
+                                  MySQL, NodeJS, Express</small
+                              >
+                              <a
+                                  class="back-link"
+                                  href="https://github.com/cnguyen-13/quiz-app-leaderboard"
+                                  target="_blank"
+                              >
+                                  <img
+                                      class="back-link-img"
+                                      src="./images/misc/coding.svg"
+                                      alt="Weather App GitHub Link"
+                                  />
+                                  <pre class="white"> CODE</pre>
+                              </a>
+                              <a class="back-link" href="" target="_blank">
+                                  <img
+                                      class="back-link-img"
+                                      src="./images/misc/eyeglass.svg"
+                                      alt="Weather App Site"
+                                  />
+                                  <pre class="white"> DEMO</pre>
+                              </a>
+                          </div>
+                          <small class="small-title"
+                              ><span class="project-number">Project #5:</span>
+                              Quiz App</small
+                          >
+                      </div>
+                  </div>
+
+                  <!-- HANDCRAFTED BEST -->
+                  <div class="card">
+                      <div class="card-front" data-aos="fade-down">
+                          <div class="card-image">
+                              <img
+                                  class="project-img"
+                                  src="./images/projects/room-capture.png"
+                                  alt="Handcrafted Best image"
+                              />
+                          </div>
+                          <div class="card-content">
+                              <h3 class="card-title">
+                                  Home Room FM Challenge
+                              </h3>
+                              <hr />
+                              <p class="card-text">
+                                  A front end landing page challenge. This
+                                  challenge focuses on taking a design/mockup
+                                  (mobile and desktop versions) and turning it
+                                  into an actual landing page. Features a
+                                  sliding effect when the user clicks on the
+                                  left or right arrow.
+                              </p>
+                          </div>
+                      </div>
+                      <div class="card-back">
+                          <div class="back-links">
+                              <small class="tech"
+                                  >HTML, CSS/SASS, Javascript</small
+                              >
+                              <a
+                                  class="back-link"
+                                  href="https://github.com/cnguyen-13/HandcraftedBest"
+                                  target="_blank"
+                              >
+                                  <img
+                                      class="back-link-img"
+                                      src="./images/misc/coding.svg"
+                                      alt="Weather App GitHub Link"
+                                  />
+                                  <pre> CODE</pre>
+                              </a>
+                              <a class="back-link" href="" target="_blank">
+                                  <img
+                                      class="back-link-img"
+                                      src="./images/misc/eyeglass.svg"
+                                      alt="Weather App Site"
+                                  />
+                                  <pre> DEMO</pre>
+                              </a>
+                          </div>
+                          <small class="small-title"
+                              ><span class="project-number">Project #6:</span>
+                              Home Room FM Challenge</small
+                          >
+                      </div>
+                  </div>
+              </div>
+              </section>
+              <div class="group-item group-item-right"></div>
+          </section>
+   
+            </section>
+        </main>
+    </body>
+</html>

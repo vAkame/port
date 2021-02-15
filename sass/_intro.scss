@@ -1,0 +1,35 @@
+.intro-text {
+    margin-bottom: 2rem;
+    a.cta-btn {
+        min-width: 200px;
+        max-width: 40%;
+        display: block;
+        text-align: center;
+        position: relative;
+        z-index: 5;
+        border: 1px solid $color-offwhite;
+        padding: 1rem 2.25rem;
+        font-size: 1.25rem;
+        transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+        &:hover {
+            color: $color-primary;
+            background-color: $color-offwhite;
+        }
+    }
+}
+
+.intro-image {
+    width: 100%;
+}
+
+@media (min-width: $breakpoint-sm) {
+    .intro-image {
+        width: auto;
+    }
+}
+
+@media (min-width: $breakpoint-desktop) {
+    .intro-text {
+        margin-bottom: 0;
+    }
+}

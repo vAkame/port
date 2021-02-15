@@ -1,0 +1,67 @@
+* {
+    font-family: monospace;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    position: relative;
+    line-height: 1.4;
+}
+
+main {
+    position: relative;
+    top: $height-header;
+}
+
+ul {
+    list-style-type: none;
+    margin: 1.25rem 0;
+}
+
+li {
+    font-size: 1.15rem;
+}
+
+a {
+    color: $color-offwhite;
+    text-decoration: none;
+    text-transform: uppercase;
+    background-color: transparent;
+    letter-spacing: 0.2em;
+}
+
+h1,
+h2,
+h3 {
+    letter-spacing: 0.1em;
+    margin-bottom: 1rem;
+    text-transform: uppercase;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+h2 {
+    font-size: 2.5rem;
+}
+
+h3 {
+    font-size: 1.5rem;
+}
+
+p {
+    font-size: 1.25rem;
+    margin-bottom: 2rem;
+}
+
+@media (min-width: $breakpoint-desktop) {
+    main {
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: calc(100% - 70px);
+    }
+}
